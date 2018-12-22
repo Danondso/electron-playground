@@ -1,0 +1,17 @@
+{
+  "name": "electron-playground",
+  "version": "1.0.0",
+  "description": "Dublin learns how to write Javascript using Electron as a platform",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "author": "Dublin Anondson",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^3.0.12"
+  },
+  "dependencies": {
+    "@material/button": "^0.42.0"
+  }
+}

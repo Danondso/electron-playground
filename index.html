@@ -1,11 +1,12 @@
 <!DOCTYPE html>
 <html>
   <head>
+      <script type="text/javascript" src="hangman.js"></script>
     <meta charset="UTF-8">
-    <title>Hello World!</title>
+    <title>Hangman</title>
   </head>
-  <body>
-        <button type="submit" onsubmit="guess()">Guess</button>
+  <body onload="initializeWord();">
+        <input type="text" name="guess" id="inputGuess">
+        <button type="submit" onclick="guess(inputGuess.value)">Guess</button>
   </body>
-  <script src="hangman.js"></script>
 </html>

@@ -12,6 +12,8 @@
     "electron": "^3.0.13"
   },
   "dependencies": {
-    "@material/button": "^0.42.0"
+    "@material/button": "^0.42.0",
+    "bootstrap": "^4.2.1",
+    "popper": "^1.0.1"
   }
 }

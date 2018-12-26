@@ -4,11 +4,11 @@
     <meta charset="UTF-8">
     <title>Hangman Game</title>
   </head>
-  <body onload="initializeWord();">
+  <body onload="initializeGame();">
         <p id="result"></p>
+        <p id="remainingGuesses"></p>
         <input type="text" name="guess" id="inputGuess">
         <button type="submit" onclick="guess(inputGuess.value)">Guess</button>
-        
   </body>
   <script type="text/javascript" src="hangman.js"></script>
 </html>

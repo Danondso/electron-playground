@@ -1,0 +1,17 @@
+.parent-container {
+    padding-top: 150px;
+}
+
+#result, #guessResultMessage {
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 25px;
+}
+
+#inputGuess {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.input-container {
+    padding: 50px;
+}

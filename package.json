@@ -14,6 +14,8 @@
   "dependencies": {
     "@material/button": "^0.42.0",
     "bootstrap": "^4.2.1",
-    "popper": "^1.0.1"
+    "jquery": "^3.3.1",
+    "popper": "^1.0.1",
+    "popper.js": "^1.14.6"
   }
 }

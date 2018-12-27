@@ -2,7 +2,7 @@
     padding-top: 150px;
 }
 
-#result, #guessResultMessage {
+#result, #guessResultMessage, #guessedLetters, #guessedLettersTemplate {
     text-align: center;
     font-family: 'Courier New', Courier, monospace;
     font-size: 25px;
@@ -10,6 +10,7 @@
 
 #inputGuess {
     font-family: 'Courier New', Courier, monospace;
+    text-align: center;
 }
 
 .input-container {

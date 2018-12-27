@@ -15,17 +15,18 @@
       <div class="card">
         <p class="card" id="result"></p>
         <p id="guessResultMessage"></p>
+        <span id="guessedLettersTemplate">Guessed Letters: <p id="guessedLetters"></p></span>
       </div>
     </div>
 
-    <div class="input-group input-container">
+    <div class="container input-group input-container">
       <input type="text" class="form-control" id="inputGuess">
-      <button type="button" class="btn btn-secondary" onclick="guess(inputGuess.value)">Guess</button>
-
+      <div class="container">
+        <button type="button" class="form-control btn btn-secondary" onclick="guess(inputGuess.value)">Guess</button>
+      </div>
     </div>
   </div>
 </body>
 <script type="text/javascript" src="hangman.js"></script>
 <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
-
 </html>

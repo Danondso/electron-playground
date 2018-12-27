@@ -24,6 +24,7 @@ function guess(inputGuess) {
                 guessedLetters.push(guess);
             } else {
                 document.getElementById("guessResultMessage").innerHTML = "You've already guessed '" + guess + "', try again.";
+                return;
             }
 
             if (chosenWord.includes(guess)) {

@@ -1,21 +1,26 @@
 <!DOCTYPE html>
 <html>
-
+<!-- The dictionary came from https://github.com/dwyl/english-words. They own that. -->
 <head>
   <meta charset="UTF-8">
   <title>Hangman Game</title>
   <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
-  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="assets/styles/styles.css">
 </head>
 
 <body onload="initializeGame();">
 
   <div class="container-fluid parent-container">
-    <div class="container">
-      <div class="card">
-        <p class="card" id="result"></p>
+
+      <canvas id="myCanvas" width="500" height="350" style="border:1px solid #000000;">
+        </canvas> 
+
+
+    <div class="card">
+      <div class="card-body">
+        <p id="result"></p>
         <p id="guessResultMessage"></p>
-        <span id="guessedLettersTemplate">Guessed Letters: <p id="guessedLetters"></p></span>
+        <p id="guessedLetters"></p>
       </div>
     </div>
 
@@ -23,10 +28,12 @@
       <input type="text" class="form-control" id="inputGuess">
       <div class="container">
         <button type="button" class="form-control btn btn-secondary" onclick="guess(inputGuess.value)">Guess</button>
+        <button type="button" class="form-control btn btn-secondary" onclick="initializeGame()">Reset</button>
       </div>
     </div>
   </div>
 </body>
 <script type="text/javascript" src="hangman.js"></script>
 <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+
 </html>

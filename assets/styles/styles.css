@@ -1,0 +1,25 @@
+body {
+    color: #3B0909;
+    background: #C9281C;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+}
+.card, .card-body {
+    background: #FCD99F;
+}
+
+.parent-container {
+    padding-top: 150px;
+}
+
+#result, #guessResultMessage, #guessedLetters, #guessedLettersTemplate {
+    font-size: 25px;
+}
+
+.input-container {
+    padding: 50px;
+}
+
+.btn-secondary{
+    background: #D16E4D;
+}

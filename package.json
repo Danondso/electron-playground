@@ -9,13 +9,13 @@
   "author": "Dublin Anondson",
   "license": "ISC",
   "devDependencies": {
-    "electron": "^3.0.13"
+    "electron": "^3.1.9"
   },
   "dependencies": {
     "@material/button": "^0.42.0",
-    "bootstrap": "^4.2.1",
-    "jquery": "^3.3.1",
+    "bootstrap": "^4.3.1",
+    "jquery": "^3.4.1",
     "popper": "^1.0.1",
-    "popper.js": "^1.14.6"
+    "popper.js": "^1.15.0"
   }
 }

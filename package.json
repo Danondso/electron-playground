@@ -9,7 +9,7 @@
   "author": "Dublin Anondson",
   "license": "ISC",
   "devDependencies": {
-    "electron": "^3.1.9"
+    "electron": "^7.2.4"
   },
   "dependencies": {
     "@material/button": "^0.42.0",
